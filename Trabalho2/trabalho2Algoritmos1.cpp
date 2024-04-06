@@ -13,7 +13,6 @@
 const long long int INFINITO = 9223372036854775807LL; 
 using namespace std;
 
-//long long pra todos os ints
 class Vizinho {
     public:
         long long int id;
@@ -62,23 +61,18 @@ void relax(Node& u, Node& v, long long int& peso, long long int& ano){
     }   
 }
 void Dijsktra(unordered_map<long long int, Node>& grafo, Node& verticeInicial){
-    // initializeSingleSource(grafo, verticeInicial);
     verticeInicial.tempo = 0;
     priority_queue<Node, vector<Node>, Compare> Q;
-    // priority_queue<Vizinho, vector<Vizinho>, Compare2> anos;
     verticeInicial.anoDijsktra = 0;
     Q.push(verticeInicial);
     long long int anoX = 0;
     while (!(Q.empty())){
-        // cout << "oi" << endl;
         Node u = Q.top();
         Q.pop();
-        // cout << "O índice normal é: " << u.id << ", e O índice reduzido é: " << u.id -1 << endl;
         if (grafo[u.id].usado == true) continue;
         for (int i = 0; i < u.neighbors.size(); i++){
             relax(u, grafo[u.neighbors[i]->id], u.neighbors[i]->pesoTempo, u.neighbors[i]->ano);
             Q.push(grafo[u.neighbors[i]->id]);
-            // anos.push(v);
         }
         grafo[u.id].usado = true;
     }
@@ -180,12 +174,10 @@ int main()
     scanf("%lld %lld", &M, &N); // N é o número de vertices e M é o número de arestas
 
     std::unordered_map<long long int, Node> G;
-    // std::vector<long long int> keys;
     priority_queue<Vizinho, vector<Vizinho*>, CompareCusto> ordenadoVizinhosX;
     priority_queue<Vizinho, vector<Vizinho*>, Compare2> ordenadoVizinhos2;
-    // keys.reserve(N);
     vector<Vizinho*> vizinhos;
-    for (long long int i = 0; i < N; i++) { // Altere para M se estiver lendo arestas
+    for (long long int i = 0; i < N; i++) {
         long long int ano;
         long long int peso;
         long long int custo;
