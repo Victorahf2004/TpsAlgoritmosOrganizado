@@ -1,0 +1,1 @@
+Essa pasta mostra os principais trabalhos realizados por mim na UFMG até o momento
