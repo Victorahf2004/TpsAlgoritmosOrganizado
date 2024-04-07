@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+Command:            ./bin/app
+Massif arguments:   (none)
+ms_print arguments: massif.out.3265
+--------------------------------------------------------------------------------
+
+
+    KB
+208.1^                                                             :          
+     |   @@    :             ::  ::   :   ::       #::     :       :     ::   
+     |   @     :             :   :    :   :        #:      :       :     ::   
+     |   @     :             :   :    :   :        #:      :       :     ::   
+     |   @     :             :   :    :   :        #:      :       :     ::   
+     |   @     :             :   :    :   :        #:      :       :     ::   
+     |   @     :             :   :    :   :        #:      :       :  :: ::  :
+     |   @ :   :             : : : :  : : : :   :  #: :::: :       : ::  :: ::
+     |   @ :   :             : : : :  : : : :   :  #: : :  :       : ::  :: ::
+     |   @ :   :             : : : :  : : : :   :  #: : :  :       : ::  :: ::
+     |   @ :   :      ::     : : : :::: ::: : :::  #: : :  :       : ::  :: ::
+     |   @ :   :      :      : : : :: : ::: : : :  #: : :  :       : ::  :: ::
+     |   @ :   :      :      : : : :: : ::: : : :::#: : :  ::  ::  ::::  :::::
+     |   @ :::::::::::: :::::: ::: :: @@::: ::: :: #: : : :::::: :::::: ::::::
+     |  :@ ::: ::: :: : :: ::: ::: :: @ ::: ::: :: #: : : :::: : : :::: ::::::
+     |  :@ ::: ::: :: : :: ::: ::: :: @ ::: ::: :: #: : : :::: : : :::: ::::::
+     |  :@ ::: ::: :: : :: ::: ::: :: @ ::: ::: :: #: : : :::: : : :::: ::::::
+     |  :@ ::: ::: :: : :: ::: ::: :: @ ::: ::: :: #: : : :::: : : :::: ::::::
+     |  :@ ::: ::: :: : :: ::: ::: :: @ ::: ::: :: #: : : :::: : : :::: ::::::
+     |  :@ ::: ::: :: : :: ::: ::: :: @ ::: ::: :: #: : : :::: : : :::: ::::::
+   0 +----------------------------------------------------------------------->Mi
+     0                                                                   67.63
+
+Number of snapshots: 55
+ Detailed snapshots: [2, 23, 33 (peak)]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1      2,362,379           72,712           72,704             8            0
+  2      3,830,481          210,928          210,806           122            0
+99.94% (210,806B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->34.47% (72,704B) 0x48F0C19: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->34.47% (72,704B) 0x4011B99: call_init.part.0 (dl-init.c:72)
+|   ->34.47% (72,704B) 0x4011CA0: call_init (dl-init.c:30)
+|     ->34.47% (72,704B) 0x4011CA0: _dl_init (dl-init.c:119)
+|       ->34.47% (72,704B) 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+|         
+->30.35% (64,016B) 0x10BFBC: Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+| ->30.35% (64,016B) 0x10D97F: Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|   ->30.35% (64,016B) 0x11068F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|     
+->30.35% (64,016B) 0x10D58C: Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+| ->30.35% (64,016B) 0x10D9AE: Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|   ->30.35% (64,016B) 0x11068F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|     
+->03.88% (8,192B) 0x4955DD3: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->03.88% (8,192B) 0x495A006: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|   ->03.88% (8,192B) 0x495A93F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|     ->03.88% (8,192B) 0x10FF0F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|       
+->00.89% (1,878B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  3      5,011,806          146,832          146,734            98            0
+  4      6,108,575           82,808           82,718            90            0
+  5      7,813,345           83,024           82,928            96            0
+  6      8,974,347          210,928          210,807           121            0
+  7     10,672,208           82,992           82,890           102            0
+  8     11,813,694           82,992           82,889           103            0
+  9     13,003,053           83,488           83,384           104            0
+ 10     14,691,870           83,392           83,271           121            0
+ 11     16,515,486          115,128          115,042            86            0
+ 12     17,960,906           83,392           83,271           121            0
+ 13     19,271,106           83,408           83,308           100            0
+ 14     20,830,357           83,328           83,219           109            0
+ 15     22,088,305           83,552           83,460            92            0
+ 16     23,031,213          211,160          211,054           106            0
+ 17     24,796,887          147,208          147,096           112            0
+ 18     26,144,023           83,720           83,632            88            0
+ 19     27,117,571          211,840          211,721           119            0
+ 20     28,784,076          147,744          147,647            97            0
+ 21     30,312,702          115,736          115,650            86            0
+ 22     31,597,313          211,840          211,719           121            0
+ 23     32,405,286           84,320           84,217           103            0
+99.88% (84,217B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->86.22% (72,704B) 0x48F0C19: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->86.22% (72,704B) 0x4011B99: call_init.part.0 (dl-init.c:72)
+|   ->86.22% (72,704B) 0x4011CA0: call_init (dl-init.c:30)
+|     ->86.22% (72,704B) 0x4011CA0: _dl_init (dl-init.c:119)
+|       ->86.22% (72,704B) 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+|         
+->09.72% (8,192B) 0x4955DD3: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->09.72% (8,192B) 0x495A006: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|   ->09.72% (8,192B) 0x495A93F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|     ->09.72% (8,192B) 0x10FF0F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|       
+->01.62% (1,370B) in 12 places, all below massif's threshold (1.00%)
+| 
+->01.21% (1,024B) 0x4AC7D03: _IO_file_doallocate (filedoalloc.c:101)
+| ->01.21% (1,024B) 0x4AD7ECF: _IO_doallocbuf (genops.c:347)
+|   ->01.21% (1,024B) 0x4AD6F2F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+|     ->01.21% (1,024B) 0x4AD56B4: _IO_new_file_xsputn (fileops.c:1244)
+|       ->01.21% (1,024B) 0x4AD56B4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+|         ->01.21% (1,024B) 0x4AC93C0: fwrite (iofwrite.c:39)
+|           ->01.21% (1,024B) 0x497D783: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|             ->01.21% (1,024B) 0x497DB2B: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|               ->01.21% (1,024B) 0x10ECA6: Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|                 ->01.21% (1,024B) 0x1100C2: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|                   
+->01.10% (927B) 0x498CBBD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  ->01.10% (927B) 0x498E3C2: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+    ->01.10% (927B) 0x490E36A: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+    | ->01.10% (927B) in 2 places, all below massif's threshold (1.00%)
+    |   
+    ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+    
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 24     33,756,954          147,744          147,649            95            0
+ 25     34,677,916          115,736          115,650            86            0
+ 26     35,926,566          211,768          211,663           105            0
+ 27     37,548,826          147,744          147,646            98            0
+ 28     38,843,595           84,704           84,600           104            0
+ 29     39,898,739          115,776          115,670           106            0
+ 30     41,721,097          147,704          147,626            78            0
+ 31     43,254,126           86,560           86,462            98            0
+ 32     44,421,126           84,936           84,848            88            0
+ 33     45,285,489          213,056          212,937           119            0
+99.94% (212,937B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->34.12% (72,704B) 0x48F0C19: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->34.12% (72,704B) 0x4011B99: call_init.part.0 (dl-init.c:72)
+|   ->34.12% (72,704B) 0x4011CA0: call_init (dl-init.c:30)
+|     ->34.12% (72,704B) 0x4011CA0: _dl_init (dl-init.c:119)
+|       ->34.12% (72,704B) 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+|         
+->30.05% (64,016B) 0x10BFBC: Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+| ->30.05% (64,016B) 0x10D97F: Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|   ->30.05% (64,016B) 0x11068F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|     
+->30.05% (64,016B) 0x10D58C: Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+| ->30.05% (64,016B) 0x10D9AE: Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|   ->30.05% (64,016B) 0x11068F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|     
+->03.84% (8,192B) 0x4955DD3: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->03.84% (8,192B) 0x495A006: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|   ->03.84% (8,192B) 0x495A93F: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+|     ->03.84% (8,192B) 0x10FF0F: main (in /home/victorufmg/EstDados 2023/TP1DeuCertoDefinitivo/bin/app)
+|       
+->01.88% (4,009B) in 12 places, all below massif's threshold (1.00%)
+  
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 34     46,210,915          213,056          212,937           119            0
+ 35     47,321,544           86,176           86,083            93            0
+ 36     48,251,353          148,960          148,863            97            0
+ 37     49,636,050          149,072          148,951           121            0
+ 38     51,360,721           84,936           84,848            88            0
+ 39     52,395,515          213,056          212,937           119            0
+ 40     53,993,207           86,112           86,005           107            0
+ 41     55,109,491           84,936           84,850            86            0
+ 42     57,067,366           86,752           86,652           100            0
+ 43     58,307,194           84,936           84,849            87            0
+ 44     60,279,643          213,080          212,943           137            0
+ 45     61,398,237           86,160           86,057           103            0
+ 46     62,317,782          148,960          148,870            90            0
+ 47     63,693,297          149,168          149,020           148            0
+ 48     65,444,162           84,936           84,847            89            0
+ 49     66,478,848          213,056          212,936           120            0
+ 50     67,287,187          213,056          212,936           120            0
+ 51     68,389,975           86,112           86,005           107            0
+ 52     69,289,645          148,960          148,865            95            0
+ 53     70,097,920          149,248          149,025           223            0
+ 54     70,919,693           84,896           84,826            70            0

@@ -1,0 +1,561 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+100.06      0.01     0.01      246    40.67    40.67  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int)
+  0.00      0.01     0.00    90556     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const
+  0.00      0.01     0.00    45278     0.00     0.00  bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.01     0.00    41143     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++()
+  0.00      0.01     0.00    41143     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const
+  0.00      0.01     0.00    20322     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.01     0.00     5264     0.00     0.00  Pilha<char>::isEmpty() const
+  0.00      0.01     0.00     3906     0.00     0.00  std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.01     0.00     3880     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.01     0.00     3326     0.00     0.00  bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.01     0.00     2680     0.00     0.00  FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const
+  0.00      0.01     0.00     2616     0.00     0.00  Pilha<char>::peek() const
+  0.00      0.01     0.00     2022     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const
+  0.00      0.01     0.00     1970     0.00     0.00  Pilha<char>::pop()
+  0.00      0.01     0.00     1970     0.00     0.00  Pilha<char>::push(char const&)
+  0.00      0.01     0.00     1958     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop()
+  0.00      0.01     0.00     1953     0.00     0.00  std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.01     0.00     1953     0.00     0.00  std::setprecision(int)
+  0.00      0.01     0.00     1953     0.00     0.00  std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00      0.01     0.00     1953     0.00     0.00  std::operator~(std::_Ios_Fmtflags)
+  0.00      0.01     0.00     1953     0.00     0.00  std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00      0.01     0.00     1953     0.00     0.00  std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.01     0.00     1640     0.00     0.00  std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  0.00      0.01     0.00     1324     0.00     0.00  FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::dequeue()
+  0.00      0.01     0.00     1324     0.00     0.00  FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::enqueue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.01     0.00     1324     0.00     0.00  FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isFull() const
+  0.00      0.01     0.00     1302     0.00     0.00  Expressao::str_to_ld(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.01     0.00     1302     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  0.00      0.01     0.00     1292     0.00     0.00  Expressao::getPrecedence(char)
+  0.00      0.01     0.00      984     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  0.00      0.01     0.00      656     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.01     0.00      651     0.00     0.00  Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.01     0.00      328     0.00     0.00  std::char_traits<char>::length(char const*)
+  0.00      0.01     0.00      328     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.01     0.00      326     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha()
+  0.00      0.01     0.00       80     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.01     0.00       67     0.00    40.67  Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.01     0.00       64     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir()
+  0.00      0.01     0.00       33     0.00     0.00  Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator=(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.01     0.00       33     0.00    39.44  Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.01     0.00       33     0.00    81.35  Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.01     0.00       32     0.00     0.00  FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::FilaCircular(int)
+  0.00      0.01     0.00       32     0.00     0.00  FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~FilaCircular()
+  0.00      0.01     0.00       32     0.00     0.00  Pilha<char>::Pilha(int)
+  0.00      0.01     0.00       32     0.00     0.00  Pilha<char>::~Pilha()
+  0.00      0.01     0.00       16     0.00    40.67  Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.01     0.00       16     0.00    40.67  Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.01     0.00       16     0.00    81.35  Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.01     0.00       16     0.00    40.67  Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*)
+  0.00      0.01     0.00       16     0.00    40.67  Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.01     0.00       16     0.00    40.67  Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.01     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN9ExpressaoC2Ev
+  0.00      0.01     0.00        1     0.00    40.67  _GLOBAL__sub_I_c
+  0.00      0.01     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.01     0.00        1     0.00    40.67  __static_initialization_and_destruction_0(int, int)
+  0.00      0.01     0.00        1     0.00    40.67  Expressao::Expressao()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 99.94% of 0.01 seconds
+
+index % time    self  children    called     name
+                0.00    0.00       1/246         Expressao::Expressao() [14]
+                0.00    0.00      16/246         Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/246         Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00      16/246         Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00      16/246         Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+                0.00    0.00      16/246         Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00      32/246         Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00      66/246         Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [4]
+                0.00    0.00      67/246         Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+[1]    100.0    0.01    0.00     246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     99.6    0.00    0.01                 main [2]
+                0.00    0.00      67/67          Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+                0.00    0.00      33/33          Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [4]
+                0.00    0.00      33/33          Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00      16/16          Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [6]
+                0.00    0.00      16/16          Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00      16/16          Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00      16/16          Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+                0.00    0.00     554/3880        bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [29]
+                0.00    0.00      97/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+                0.00    0.00      64/80          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [56]
+                0.00    0.00      33/33          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator=(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [58]
+-----------------------------------------------
+                0.00    0.00      67/67          main [2]
+[3]     27.2    0.00    0.00      67         Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+                0.00    0.00      67/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00   23612/45278       bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23]
+                0.00    0.00   23545/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [25]
+                0.00    0.00   23545/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [24]
+                0.00    0.00    7444/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00      67/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      33/33          main [2]
+[4]     26.8    0.00    0.00      33         Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [4]
+                0.00    0.00      66/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00    6796/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00      33/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      33/33          main [2]
+[5]     13.0    0.00    0.00      33         Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00      32/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00    8912/45278       bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23]
+                0.00    0.00    8880/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [25]
+                0.00    0.00    8880/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [24]
+                0.00    0.00    2752/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00      32/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      16/16          main [2]
+[6]     13.0    0.00    0.00      16         Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [6]
+                0.00    0.00      16/16          Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/16          Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00      32/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+                0.00    0.00      16/80          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [56]
+-----------------------------------------------
+                0.00    0.00      16/16          main [2]
+[7]      6.5    0.00    0.00      16         Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00      16/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00     984/984         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [50]
+                0.00    0.00     672/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00     656/1958        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop() [36]
+                0.00    0.00     656/656         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [51]
+                0.00    0.00     328/328         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [54]
+                0.00    0.00      16/64          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [57]
+                0.00    0.00      16/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      16/16          main [2]
+[8]      6.5    0.00    0.00      16         Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00      16/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00    6377/45278       bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23]
+                0.00    0.00    4359/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [25]
+                0.00    0.00    4359/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [24]
+                0.00    0.00    1663/3326        bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [30]
+                0.00    0.00    1308/2616        Pilha<char>::peek() const [32]
+                0.00    0.00     985/1970        Pilha<char>::push(char const&) [35]
+                0.00    0.00     985/1970        Pilha<char>::pop() [34]
+                0.00    0.00     678/2680        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [31]
+                0.00    0.00     662/1324        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::enqueue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [45]
+                0.00    0.00     662/1324        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::dequeue() [44]
+                0.00    0.00     662/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00     646/1292        Expressao::getPrecedence(char) [49]
+                0.00    0.00     339/5264        Pilha<char>::isEmpty() const [27]
+                0.00    0.00      16/32          FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::FilaCircular(int) [59]
+                0.00    0.00      16/32          Pilha<char>::Pilha(int) [61]
+                0.00    0.00      16/64          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [57]
+                0.00    0.00      16/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+                0.00    0.00      16/32          Pilha<char>::~Pilha() [62]
+                0.00    0.00      16/32          FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~FilaCircular() [60]
+-----------------------------------------------
+                0.00    0.00      16/16          Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [6]
+[9]      6.5    0.00    0.00      16         Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00      16/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00     662/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00     646/1958        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop() [36]
+                0.00    0.00     323/651         Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00      16/64          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [57]
+                0.00    0.00      16/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      16/16          main [2]
+[10]     6.5    0.00    0.00      16         Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+                0.00    0.00      16/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00     672/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00     656/1958        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop() [36]
+                0.00    0.00     328/651         Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00      16/64          Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [57]
+                0.00    0.00      16/326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      16/16          Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [6]
+[11]     6.5    0.00    0.00      16         Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+                0.00    0.00    6377/45278       bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23]
+                0.00    0.00    4359/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [25]
+                0.00    0.00    4359/41143       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [24]
+                0.00    0.00    1663/3326        bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [30]
+                0.00    0.00    1308/2616        Pilha<char>::peek() const [32]
+                0.00    0.00     985/1970        Pilha<char>::push(char const&) [35]
+                0.00    0.00     985/1970        Pilha<char>::pop() [34]
+                0.00    0.00     678/2680        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [31]
+                0.00    0.00     662/1324        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::enqueue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [45]
+                0.00    0.00     662/1324        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::dequeue() [44]
+                0.00    0.00     662/20322       Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+                0.00    0.00     646/1292        Expressao::getPrecedence(char) [49]
+                0.00    0.00     339/5264        Pilha<char>::isEmpty() const [27]
+                0.00    0.00      16/32          FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::FilaCircular(int) [59]
+                0.00    0.00      16/32          Pilha<char>::Pilha(int) [61]
+                0.00    0.00      16/32          Pilha<char>::~Pilha() [62]
+                0.00    0.00      16/32          FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~FilaCircular() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [15]
+[12]     0.4    0.00    0.00       1         _GLOBAL__sub_I_c [12]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [13]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_c [12]
+[13]     0.4    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [13]
+                0.00    0.00       1/1           Expressao::Expressao() [14]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [13]
+[14]     0.4    0.00    0.00       1         Expressao::Expressao() [14]
+                0.00    0.00       1/246         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[15]     0.4    0.00    0.00                 __libc_csu_init [15]
+                0.00    0.00       1/1           _GLOBAL__sub_I_c [12]
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN9ExpressaoC2Ev [63]
+-----------------------------------------------
+                0.00    0.00   90556/90556       bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23]
+[22]     0.0    0.00    0.00   90556         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [22]
+-----------------------------------------------
+                0.00    0.00    6377/45278       Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00    6377/45278       Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00    8912/45278       Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00   23612/45278       Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+[23]     0.0    0.00    0.00   45278         bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23]
+                0.00    0.00   90556/90556       __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [22]
+-----------------------------------------------
+                0.00    0.00    4359/41143       Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00    4359/41143       Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00    8880/41143       Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00   23545/41143       Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+[24]     0.0    0.00    0.00   41143         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [24]
+-----------------------------------------------
+                0.00    0.00    4359/41143       Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00    4359/41143       Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00    8880/41143       Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00   23545/41143       Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+[25]     0.0    0.00    0.00   41143         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [25]
+-----------------------------------------------
+                0.00    0.00     662/20322       Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     662/20322       Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00     662/20322       Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00     672/20322       Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00     672/20322       Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+                0.00    0.00    2752/20322       Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00    6796/20322       Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [4]
+                0.00    0.00    7444/20322       Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+[26]     0.0    0.00    0.00   20322         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [26]
+-----------------------------------------------
+                0.00    0.00     339/5264        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     339/5264        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00    1970/5264        Pilha<char>::pop() [34]
+                0.00    0.00    2616/5264        Pilha<char>::peek() const [32]
+[27]     0.0    0.00    0.00    5264         Pilha<char>::isEmpty() const [27]
+-----------------------------------------------
+                0.00    0.00    1953/3906        std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [39]
+                0.00    0.00    1953/3906        std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [37]
+[28]     0.0    0.00    0.00    3906         std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [28]
+-----------------------------------------------
+                0.00    0.00     554/3880        main [2]
+                0.00    0.00    3326/3880        bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [30]
+[29]     0.0    0.00    0.00    3880         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [29]
+-----------------------------------------------
+                0.00    0.00    1663/3326        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00    1663/3326        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[30]     0.0    0.00    0.00    3326         bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [30]
+                0.00    0.00    3326/3880        bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [29]
+-----------------------------------------------
+                0.00    0.00     678/2680        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     678/2680        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00    1324/2680        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::dequeue() [44]
+[31]     0.0    0.00    0.00    2680         FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [31]
+-----------------------------------------------
+                0.00    0.00    1308/2616        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00    1308/2616        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[32]     0.0    0.00    0.00    2616         Pilha<char>::peek() const [32]
+                0.00    0.00    2616/5264        Pilha<char>::isEmpty() const [27]
+-----------------------------------------------
+                0.00    0.00      64/2022        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [57]
+                0.00    0.00    1958/2022        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop() [36]
+[33]     0.0    0.00    0.00    2022         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [33]
+-----------------------------------------------
+                0.00    0.00     985/1970        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     985/1970        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[34]     0.0    0.00    0.00    1970         Pilha<char>::pop() [34]
+                0.00    0.00    1970/5264        Pilha<char>::isEmpty() const [27]
+-----------------------------------------------
+                0.00    0.00     985/1970        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     985/1970        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[35]     0.0    0.00    0.00    1970         Pilha<char>::push(char const&) [35]
+-----------------------------------------------
+                0.00    0.00     646/1958        Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00     656/1958        Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00     656/1958        Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+[36]     0.0    0.00    0.00    1958         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop() [36]
+                0.00    0.00    1958/2022        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [33]
+-----------------------------------------------
+                0.00    0.00    1953/1953        std::fixed(std::ios_base&) [66]
+[37]     0.0    0.00    0.00    1953         std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [37]
+                0.00    0.00    1953/1953        std::operator~(std::_Ios_Fmtflags) [40]
+                0.00    0.00    1953/1953        std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [39]
+                0.00    0.00    1953/3906        std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [28]
+                0.00    0.00    1953/1953        std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [41]
+-----------------------------------------------
+                0.00    0.00     651/1953        Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00    1302/1953        Expressao::str_to_ld(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [47]
+[38]     0.0    0.00    0.00    1953         std::setprecision(int) [38]
+-----------------------------------------------
+                0.00    0.00    1953/1953        std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [37]
+[39]     0.0    0.00    0.00    1953         std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [39]
+                0.00    0.00    1953/3906        std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [28]
+-----------------------------------------------
+                0.00    0.00    1953/1953        std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [37]
+[40]     0.0    0.00    0.00    1953         std::operator~(std::_Ios_Fmtflags) [40]
+-----------------------------------------------
+                0.00    0.00    1953/1953        std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [37]
+[41]     0.0    0.00    0.00    1953         std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [41]
+                0.00    0.00    1953/1953        std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [42]
+-----------------------------------------------
+                0.00    0.00    1953/1953        std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [41]
+[42]     0.0    0.00    0.00    1953         std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [42]
+-----------------------------------------------
+                0.00    0.00     656/1640        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [51]
+                0.00    0.00     984/1640        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [50]
+[43]     0.0    0.00    0.00    1640         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [43]
+-----------------------------------------------
+                0.00    0.00     662/1324        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     662/1324        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[44]     0.0    0.00    0.00    1324         FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::dequeue() [44]
+                0.00    0.00    1324/2680        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [31]
+-----------------------------------------------
+                0.00    0.00     662/1324        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     662/1324        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[45]     0.0    0.00    0.00    1324         FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::enqueue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [45]
+                0.00    0.00    1324/1324        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isFull() const [46]
+-----------------------------------------------
+                0.00    0.00    1324/1324        FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::enqueue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [45]
+[46]     0.0    0.00    0.00    1324         FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isFull() const [46]
+-----------------------------------------------
+                0.00    0.00    1302/1302        Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+[47]     0.0    0.00    0.00    1302         Expressao::str_to_ld(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [47]
+                0.00    0.00    1302/1302        std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [48]
+                0.00    0.00    1302/1953        std::setprecision(int) [38]
+-----------------------------------------------
+                0.00    0.00    1302/1302        Expressao::str_to_ld(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [47]
+[48]     0.0    0.00    0.00    1302         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [48]
+-----------------------------------------------
+                0.00    0.00     646/1292        Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00     646/1292        Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[49]     0.0    0.00    0.00    1292         Expressao::getPrecedence(char) [49]
+-----------------------------------------------
+                0.00    0.00     984/984         Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+[50]     0.0    0.00    0.00     984         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [50]
+                0.00    0.00     984/1640        std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [43]
+-----------------------------------------------
+                0.00    0.00     656/656         Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+[51]     0.0    0.00    0.00     656         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [51]
+                0.00    0.00     656/1640        std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [43]
+-----------------------------------------------
+                0.00    0.00     323/651         Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00     328/651         Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+[52]     0.0    0.00    0.00     651         Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00    1302/1302        Expressao::str_to_ld(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [47]
+                0.00    0.00     651/1953        std::setprecision(int) [38]
+-----------------------------------------------
+                0.00    0.00     328/328         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [54]
+[53]     0.0    0.00    0.00     328         std::char_traits<char>::length(char const*) [53]
+-----------------------------------------------
+                0.00    0.00     328/328         Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+[54]     0.0    0.00    0.00     328         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [54]
+                0.00    0.00     328/328         std::char_traits<char>::length(char const*) [53]
+-----------------------------------------------
+                0.00    0.00       1/326         Expressao::~Expressao() [65]
+                0.00    0.00      16/326         Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00      16/326         Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00      16/326         Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+                0.00    0.00      16/326         Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+                0.00    0.00      32/326         Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [6]
+                0.00    0.00      32/326         Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00      33/326         Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [4]
+                0.00    0.00      67/326         Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3]
+                0.00    0.00      97/326         main [2]
+[55]     0.0    0.00    0.00     326         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [55]
+-----------------------------------------------
+                0.00    0.00      16/80          Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [6]
+                0.00    0.00      64/80          main [2]
+[56]     0.0    0.00    0.00      80         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [56]
+-----------------------------------------------
+                0.00    0.00      16/64          Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+                0.00    0.00      16/64          Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [7]
+                0.00    0.00      16/64          Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [10]
+                0.00    0.00      16/64          Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [9]
+[57]     0.0    0.00    0.00      64         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [57]
+                0.00    0.00      64/2022        Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [33]
+-----------------------------------------------
+                0.00    0.00      33/33          main [2]
+[58]     0.0    0.00    0.00      33         Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator=(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [58]
+-----------------------------------------------
+                0.00    0.00      16/32          Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/32          Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[59]     0.0    0.00    0.00      32         FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::FilaCircular(int) [59]
+-----------------------------------------------
+                0.00    0.00      16/32          Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/32          Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[60]     0.0    0.00    0.00      32         FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~FilaCircular() [60]
+-----------------------------------------------
+                0.00    0.00      16/32          Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/32          Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[61]     0.0    0.00    0.00      32         Pilha<char>::Pilha(int) [61]
+-----------------------------------------------
+                0.00    0.00      16/32          Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [11]
+                0.00    0.00      16/32          Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [8]
+[62]     0.0    0.00    0.00      32         Pilha<char>::~Pilha() [62]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [15]
+[63]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN9ExpressaoC2Ev [63]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN9ExpressaoC2Ev [63]
+[64]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [64]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [63] _GLOBAL__sub_I__ZN9ExpressaoC2Ev [3] Expressao::ler_infixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [27] Pilha<char>::isEmpty() const
+  [12] _GLOBAL__sub_I_c        [5] Expressao::ler_posfixa(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [22] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const
+  [64] __static_initialization_and_destruction_0(int, int) [49] Expressao::getPrecedence(char) [25] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const
+  [13] __static_initialization_and_destruction_0(int, int) [7] Expressao::posfixaInfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [53] std::char_traits<char>::length(char const*)
+  [44] FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::dequeue() [8] Expressao::infixToPostfix(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [37] std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [45] FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::enqueue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [6] Expressao::resolver_infixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [38] std::setprecision(int)
+  [59] FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::FilaCircular(int) [9] Expressao::resolver_posfixa(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*) [43] std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  [60] FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~FilaCircular() [10] Expressao::resolver_posfixa2(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [39] std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [36] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::pop() [11] Expressao::infixToPostfixSemImprimir(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [28] std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [26] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [4] Expressao::valida(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [40] std::operator~(std::_Ios_Fmtflags)
+  [57] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::imprimir() [52] Expressao::operacao2(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [29] bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  [56] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [47] Expressao::str_to_ld(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [30] bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+   [1] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::Pilha(int) [14] Expressao::Expressao() [41] std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [55] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~Pilha() [24] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [42] std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [58] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator=(Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [23] bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [48] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  [34] Pilha<char>::pop()     [46] FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isFull() const [50] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  [35] Pilha<char>::push(char const&) [31] FilaCircular<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [51] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [61] Pilha<char>::Pilha(int) [33] Pilha<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::isEmpty() const [54] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [62] Pilha<char>::~Pilha()  [32] Pilha<char>::peek() const
