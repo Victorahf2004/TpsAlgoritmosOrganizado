@@ -1,0 +1,839 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 50.02      0.01     0.01     8008     0.00     0.00  Arvore::Refaz(int, int, vector4<TipoNo*>&)
+ 50.02      0.02     0.01      306     0.03     0.03  vector4<int>::push_back(int const&)
+  0.00      0.02     0.00   161056     0.00     0.00  __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.02     0.00   133640     0.00     0.00  vector4<Par>::size() const
+  0.00      0.02     0.00   132814     0.00     0.00  vector4<Par>::operator[](int)
+  0.00      0.02     0.00   129305     0.00     0.00  vector4<TipoNo*>::operator[](int)
+  0.00      0.02     0.00    52840     0.00     0.00  std::char_traits<char>::compare(char const*, char const*, unsigned long)
+  0.00      0.02     0.00    31009     0.00     0.00  vector4<TipoNo*>::iterator::operator*() const
+  0.00      0.02     0.00    21012     0.00     0.00  vector4<TipoNo*>::iterator::operator++()
+  0.00      0.02     0.00    18092     0.00     0.00  vector4<TipoNo*>::size() const
+  0.00      0.02     0.00    16372     0.00     0.00  vector4<TipoNo*>::iterator::iterator(TipoNo**)
+  0.00      0.02     0.00    15759     0.00     0.00  vector4<TipoNo*>::iterator::operator!=(vector4<TipoNo*>::iterator const&) const
+  0.00      0.02     0.00    10914     0.00     0.00  vector4<TipoNo*>::end() const
+  0.00      0.02     0.00     8419     0.00     0.00  TipoNo::TipoNo()
+  0.00      0.02     0.00     5050     0.00     0.00  vector4<TipoNo*>::iterator::operator--()
+  0.00      0.02     0.00     5050     0.00     0.00  vector4<TipoNo*>::iterator::operator-(int) const
+  0.00      0.02     0.00     3103     0.00     0.00  Par::Par()
+  0.00      0.02     0.00     3103     0.00     0.00  Par::~Par()
+  0.00      0.02     0.00     3004     0.00     0.00  std::char_traits<char>::eq(char const&, char const&)
+  0.00      0.02     0.00     3004     0.00     0.00  std::_Base_bitset<1ul>::_S_whichbit(unsigned long)
+  0.00      0.02     0.00     2501     0.00     0.00  bool __gnu_cxx::__is_null_pointer<char>(char*)
+  0.00      0.02     0.00     2501     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  0.00      0.02     0.00     2501     0.00     0.00  std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag)
+  0.00      0.02     0.00     2501     0.00     0.00  std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+  0.00      0.02     0.00     2501     0.00     0.00  std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*)
+  0.00      0.02     0.00     2025     0.00     0.00  std::_Base_bitset<1ul>::_M_getword(unsigned long)
+  0.00      0.02     0.00     2025     0.00     0.00  std::_Base_bitset<1ul>::_S_maskbit(unsigned long)
+  0.00      0.02     0.00     1990     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const
+  0.00      0.02     0.00     1224     0.00     0.00  vector4<int>::operator[](int)
+  0.00      0.02     0.00     1224     0.00     0.00  vector4<int>::size() const
+  0.00      0.02     0.00     1113     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const
+  0.00      0.02     0.00     1081     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
+  0.00      0.02     0.00     1081     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*)
+  0.00      0.02     0.00     1081     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type)
+  0.00      0.02     0.00     1081     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&)
+  0.00      0.02     0.00     1081     0.00     0.00  std::__cxx11::to_string(int)
+  0.00      0.02     0.00     1046     0.00     0.00  std::bitset<8ul>::_Unchecked_set(unsigned long)
+  0.00      0.02     0.00      990     0.00     0.00  std::remove_reference<char&>::type&& std::move<char&>(char&)
+  0.00      0.02     0.00      979     0.00     0.00  Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.02     0.00      979     0.00     0.00  std::bitset<8ul>::reference::operator bool() const
+  0.00      0.02     0.00      979     0.00     0.00  std::bitset<8ul>::reference::reference(std::bitset<8ul>&, unsigned long)
+  0.00      0.02     0.00      979     0.00     0.00  std::bitset<8ul>::reference::~reference()
+  0.00      0.02     0.00      979     0.00     0.00  std::bitset<8ul>::operator[](unsigned long)
+  0.00      0.02     0.00      783     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++()
+  0.00      0.02     0.00      612     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.02     0.00      512     0.00     0.00  vector4<TipoNo*>::push_back(TipoNo* const&)
+  0.00      0.02     0.00      459     0.00     0.00  bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.02     0.00      437     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.02     0.00      433     0.00     0.00  __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator--()
+  0.00      0.02     0.00      433     0.00     0.00  bool __gnu_cxx::operator< <char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.02     0.00      330     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<char> >, std::is_move_constructible<char>, std::is_move_assignable<char> >::value, void>::type std::swap<char>(char&, char&)
+  0.00      0.02     0.00      330     0.00     0.00  void std::iter_swap<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.02     0.00      306     0.00     0.00  Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.02     0.00      306     0.00     0.00  vector4<TipoNo*>::begin() const
+  0.00      0.02     0.00      306     0.00     0.00  vector4<TipoNo*>::iterator::operator==(vector4<TipoNo*>::iterator const&) const
+  0.00      0.02     0.00      306     0.00     0.00  std::_Base_bitset<1ul>::_M_do_to_ulong() const
+  0.00      0.02     0.00      306     0.00     0.00  void std::bitset<8ul>::_M_check_initial_position<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) const
+  0.00      0.02     0.00      306     0.00     0.00  std::bitset<8ul>::to_ulong() const
+  0.00      0.02     0.00      306     0.00     0.00  std::_Base_bitset<1ul>::_M_do_reset()
+  0.00      0.02     0.00      306     0.00     0.00  std::_Base_bitset<1ul>::_Base_bitset()
+  0.00      0.02     0.00      306     0.00     0.00  void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char)
+  0.00      0.02     0.00      306     0.00     0.00  void std::bitset<8ul>::_M_copy_from_string<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long, char, char)
+  0.00      0.02     0.00      306     0.00     0.00  std::bitset<8ul>::reset()
+  0.00      0.02     0.00      306     0.00     0.00  std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long)
+  0.00      0.02     0.00      256     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.02     0.00      204     0.00     0.00  vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator)
+  0.00      0.02     0.00      154     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator!=(vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator const&) const
+  0.00      0.02     0.00      153     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator++()
+  0.00      0.02     0.00      153     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator*() const
+  0.00      0.02     0.00      153     0.00     0.00  std::_Base_bitset<1ul>::_Base_bitset(unsigned long long)
+  0.00      0.02     0.00      153     0.00     0.00  std::_Sanitize_val<8ul, true>::_S_do_sanitize_val(unsigned long long)
+  0.00      0.02     0.00      153     0.00     0.00  std::bitset<8ul>::bitset(unsigned long long)
+  0.00      0.02     0.00      104     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::size() const
+  0.00      0.02     0.00      103     0.00     0.00  Par::operator=(Par const&)
+  0.00      0.02     0.00      103     0.00     0.00  Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.02     0.00      103     0.00     0.03  Arvore::Constroi(vector4<TipoNo*>&, int)
+  0.00      0.02     0.00      103     0.00     0.10  Arvore::Heapsort(vector4<TipoNo*>&)
+  0.00      0.02     0.00      103     0.00     0.00  vector4<Par>::push_back(Par const&)
+  0.00      0.02     0.00      103     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator[](int)
+  0.00      0.02     0.00      103     0.00     0.00  bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.02     0.00      103     0.00     0.00  std::iterator_traits<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::iterator_category std::__iterator_category<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      0.02     0.00      103     0.00     0.00  void std::reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  0.00      0.02     0.00      103     0.00     0.00  void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag)
+  0.00      0.02     0.00      102     0.00     0.00  Arvore::gerarNumeroUnico()
+  0.00      0.02     0.00      102     0.00     0.00  vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&)
+  0.00      0.02     0.00       30     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.02     0.00        5     0.00     0.00  vector4<TipoNo*>::vector4()
+  0.00      0.02     0.00        3     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::vector4()
+  0.00      0.02     0.00        3     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~vector4()
+  0.00      0.02     0.00        2     0.00     5.00  Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.02     0.00        2     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::iterator(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+  0.00      0.02     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z23countCharacterFrequencyRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER7vector4IP6TipoNoE
+  0.00      0.02     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN6ArvoreC2E7vector4IP6TipoNoE
+  0.00      0.02     0.00        1     0.00     0.00  ajustarNumeros(vector4<TipoNo*>&)
+  0.00      0.02     0.00        1     0.00     0.00  countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&)
+  0.00      0.02     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.02     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.02     0.00        1     0.00     0.00  Arvore::codificacao()
+  0.00      0.02     0.00        1     0.00     9.91  Arvore::descobreMaior(TipoNo*&)
+  0.00      0.02     0.00        1     0.00     5.00  Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      0.02     0.00        1     0.00     9.91  Arvore::Huff()
+  0.00      0.02     0.00        1     0.00    10.00  Arvore::Arvore(vector4<TipoNo*>)
+  0.00      0.02     0.00        1     0.00     0.00  Arvore::~Arvore()
+  0.00      0.02     0.00        1     0.00     0.00  vector4<Par>::vector4()
+  0.00      0.02     0.00        1     0.00     0.00  vector4<Par>::~vector4()
+  0.00      0.02     0.00        1     0.00     0.00  vector4<int>::vector4()
+  0.00      0.02     0.00        1     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::end() const
+  0.00      0.02     0.00        1     0.00     0.00  vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::begin() const
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 49.98% of 0.02 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.02                 main [1]
+                0.00    0.01       1/1           Arvore::Arvore(vector4<TipoNo*>) [6]
+                0.00    0.01       1/2           Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.01       1/1           Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.00       2/437         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+                0.00    0.00       2/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+                0.00    0.00       1/5           vector4<TipoNo*>::vector4() [99]
+                0.00    0.00       1/161056      __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+                0.00    0.00       1/1           countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00       1/1           ajustarNumeros(vector4<TipoNo*>&) [105]
+                0.00    0.00       1/1           Arvore::~Arvore() [110]
+-----------------------------------------------
+                0.00    0.00    2755/8008        Arvore::Constroi(vector4<TipoNo*>&, int) [10]
+                0.01    0.00    5253/8008        Arvore::Heapsort(vector4<TipoNo*>&) [4]
+[2]     50.0    0.01    0.00    8008         Arvore::Refaz(int, int, vector4<TipoNo*>&) [2]
+                0.00    0.00   79581/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00    8008/8419        TipoNo::TipoNo() [28]
+-----------------------------------------------
+                0.01    0.00     306/306         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+[3]     50.0    0.01    0.00     306         vector4<int>::push_back(int const&) [3]
+-----------------------------------------------
+                0.00    0.00       1/103         Arvore::Arvore(vector4<TipoNo*>) [6]
+                0.00    0.01     102/103         Arvore::descobreMaior(TipoNo*&) [7]
+[4]     50.0    0.00    0.01     103         Arvore::Heapsort(vector4<TipoNo*>&) [4]
+                0.01    0.00    5253/8008        Arvore::Refaz(int, int, vector4<TipoNo*>&) [2]
+                0.00    0.00     103/103         Arvore::Constroi(vector4<TipoNo*>&, int) [10]
+                0.00    0.00   21012/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00     103/18092       vector4<TipoNo*>::size() const [24]
+                0.00    0.00     103/8419        TipoNo::TipoNo() [28]
+-----------------------------------------------
+                0.00    0.01       1/2           Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.01       1/2           main [1]
+[5]     50.0    0.00    0.01       2         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.01    0.00     306/306         vector4<int>::push_back(int const&) [3]
+                0.00    0.00     306/459         bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [61]
+                0.00    0.00     306/306         Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [67]
+                0.00    0.00     306/306         std::bitset<8ul>::to_ulong() const [72]
+                0.00    0.00     306/306         std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [78]
+                0.00    0.00     304/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+                0.00    0.00     302/1113        __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [45]
+                0.00    0.00     302/783         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [58]
+                0.00    0.00      20/30          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [98]
+-----------------------------------------------
+                0.00    0.01       1/1           main [1]
+[6]     50.0    0.00    0.01       1         Arvore::Arvore(vector4<TipoNo*>) [6]
+                0.00    0.01       1/1           Arvore::Huff() [8]
+                0.00    0.00       1/103         Arvore::Heapsort(vector4<TipoNo*>&) [4]
+                0.00    0.00       4/5           vector4<TipoNo*>::vector4() [99]
+                0.00    0.00       1/3           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::vector4() [100]
+                0.00    0.00       1/1           vector4<Par>::vector4() [111]
+                0.00    0.00       1/1           vector4<int>::vector4() [113]
+                0.00    0.00       1/18092       vector4<TipoNo*>::size() const [24]
+                0.00    0.00       1/1           Arvore::codificacao() [109]
+-----------------------------------------------
+                0.00    0.01       1/1           Arvore::Huff() [8]
+[7]     49.5    0.00    0.01       1         Arvore::descobreMaior(TipoNo*&) [7]
+                0.00    0.01     102/103         Arvore::Heapsort(vector4<TipoNo*>&) [4]
+                0.00    0.00     408/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00     408/512         vector4<TipoNo*>::push_back(TipoNo* const&) [60]
+                0.00    0.00     306/306         vector4<TipoNo*>::begin() const [68]
+                0.00    0.00     204/204         vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+                0.00    0.00     102/8419        TipoNo::TipoNo() [28]
+                0.00    0.00     102/102         Arvore::gerarNumeroUnico() [96]
+                0.00    0.00     102/1081        std::__cxx11::to_string(int) [50]
+                0.00    0.00     102/102         vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00     102/18092       vector4<TipoNo*>::size() const [24]
+-----------------------------------------------
+                0.00    0.01       1/1           Arvore::Arvore(vector4<TipoNo*>) [6]
+[8]     49.5    0.00    0.01       1         Arvore::Huff() [8]
+                0.00    0.01       1/1           Arvore::descobreMaior(TipoNo*&) [7]
+                0.00    0.00       1/18092       vector4<TipoNo*>::size() const [24]
+-----------------------------------------------
+                0.00    0.01       1/1           main [1]
+[9]     25.0    0.00    0.01       1         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.01       1/2           Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00    1224/1224        vector4<int>::size() const [44]
+                0.00    0.00    1224/1224        vector4<int>::operator[](int) [43]
+                0.00    0.00     981/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+                0.00    0.00     979/979         std::bitset<8ul>::operator[](unsigned long) [57]
+                0.00    0.00     979/979         std::bitset<8ul>::reference::operator bool() const [54]
+                0.00    0.00     979/1081        std::__cxx11::to_string(int) [50]
+                0.00    0.00     979/979         std::bitset<8ul>::reference::~reference() [56]
+                0.00    0.00     979/979         Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+                0.00    0.00     154/154         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator!=(vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator const&) const [81]
+                0.00    0.00     153/153         std::bitset<8ul>::bitset(unsigned long long) [86]
+                0.00    0.00     153/256         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [79]
+                0.00    0.00     153/153         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator*() const [83]
+                0.00    0.00     153/437         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+                0.00    0.00     153/153         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator++() [82]
+                0.00    0.00       1/3           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::vector4() [100]
+                0.00    0.00       1/1           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::begin() const [115]
+                0.00    0.00       1/1           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::end() const [114]
+                0.00    0.00       1/3           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~vector4() [101]
+-----------------------------------------------
+                0.00    0.00     103/103         Arvore::Heapsort(vector4<TipoNo*>&) [4]
+[10]    17.2    0.00    0.00     103         Arvore::Constroi(vector4<TipoNo*>&, int) [10]
+                0.00    0.00    2755/8008        Arvore::Refaz(int, int, vector4<TipoNo*>&) [2]
+-----------------------------------------------
+                0.00    0.00       1/161056      main [1]
+                0.00    0.00    6684/161056      countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00   22016/161056      Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [89]
+                0.00    0.00   31518/161056      Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [67]
+                0.00    0.00  100837/161056      Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+[17]     0.0    0.00    0.00  161056         __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+                0.00    0.00   52840/52840       std::char_traits<char>::compare(char const*, char const*, unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00   31824/133640      Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [67]
+                0.00    0.00  101816/133640      Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+[18]     0.0    0.00    0.00  133640         vector4<Par>::size() const [18]
+-----------------------------------------------
+                0.00    0.00   31824/132814      Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [67]
+                0.00    0.00  100990/132814      Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+[19]     0.0    0.00    0.00  132814         vector4<Par>::operator[](int) [19]
+-----------------------------------------------
+                0.00    0.00     103/129305      Arvore::codificacao() [109]
+                0.00    0.00     123/129305      ajustarNumeros(vector4<TipoNo*>&) [105]
+                0.00    0.00     408/129305      Arvore::descobreMaior(TipoNo*&) [7]
+                0.00    0.00    7018/129305      countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00   21012/129305      Arvore::Heapsort(vector4<TipoNo*>&) [4]
+                0.00    0.00   21060/129305      Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [89]
+                0.00    0.00   79581/129305      Arvore::Refaz(int, int, vector4<TipoNo*>&) [2]
+[20]     0.0    0.00    0.00  129305         vector4<TipoNo*>::operator[](int) [20]
+-----------------------------------------------
+                0.00    0.00   52840/52840       __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+[21]     0.0    0.00    0.00   52840         std::char_traits<char>::compare(char const*, char const*, unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00   10201/31009       vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00   20808/31009       vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+[22]     0.0    0.00    0.00   31009         vector4<TipoNo*>::iterator::operator*() const [22]
+-----------------------------------------------
+                0.00    0.00   21012/21012       vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+[23]     0.0    0.00    0.00   21012         vector4<TipoNo*>::iterator::operator++() [23]
+-----------------------------------------------
+                0.00    0.00       1/18092       Arvore::Arvore(vector4<TipoNo*>) [6]
+                0.00    0.00       1/18092       Arvore::Huff() [8]
+                0.00    0.00     102/18092       Arvore::descobreMaior(TipoNo*&) [7]
+                0.00    0.00     103/18092       Arvore::Heapsort(vector4<TipoNo*>&) [4]
+                0.00    0.00     104/18092       Arvore::codificacao() [109]
+                0.00    0.00     104/18092       ajustarNumeros(vector4<TipoNo*>&) [105]
+                0.00    0.00    7068/18092       countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00   10609/18092       Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [89]
+[24]     0.0    0.00    0.00   18092         vector4<TipoNo*>::size() const [24]
+-----------------------------------------------
+                0.00    0.00     102/16372       vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00     306/16372       vector4<TipoNo*>::begin() const [68]
+                0.00    0.00    5050/16372       vector4<TipoNo*>::iterator::operator-(int) const [30]
+                0.00    0.00   10914/16372       vector4<TipoNo*>::end() const [27]
+[25]     0.0    0.00    0.00   16372         vector4<TipoNo*>::iterator::iterator(TipoNo**) [25]
+-----------------------------------------------
+                0.00    0.00    5151/15759       vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00   10608/15759       vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+[26]     0.0    0.00    0.00   15759         vector4<TipoNo*>::iterator::operator!=(vector4<TipoNo*>::iterator const&) const [26]
+-----------------------------------------------
+                0.00    0.00     102/10914       vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00   10812/10914       vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+[27]     0.0    0.00    0.00   10914         vector4<TipoNo*>::end() const [27]
+                0.00    0.00   10914/16372       vector4<TipoNo*>::iterator::iterator(TipoNo**) [25]
+-----------------------------------------------
+                0.00    0.00     102/8419        Arvore::descobreMaior(TipoNo*&) [7]
+                0.00    0.00     103/8419        Arvore::Heapsort(vector4<TipoNo*>&) [4]
+                0.00    0.00     103/8419        Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [89]
+                0.00    0.00     103/8419        countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00    8008/8419        Arvore::Refaz(int, int, vector4<TipoNo*>&) [2]
+[28]     0.0    0.00    0.00    8419         TipoNo::TipoNo() [28]
+-----------------------------------------------
+                0.00    0.00    5050/5050        vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+[29]     0.0    0.00    0.00    5050         vector4<TipoNo*>::iterator::operator--() [29]
+-----------------------------------------------
+                0.00    0.00    5050/5050        vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+[30]     0.0    0.00    0.00    5050         vector4<TipoNo*>::iterator::operator-(int) const [30]
+                0.00    0.00    5050/16372       vector4<TipoNo*>::iterator::iterator(TipoNo**) [25]
+-----------------------------------------------
+                0.00    0.00     103/3103        Arvore::codificacao() [109]
+                0.00    0.00    3000/3103        vector4<Par>::vector4() [111]
+[31]     0.0    0.00    0.00    3103         Par::Par() [31]
+-----------------------------------------------
+                0.00    0.00     103/3103        Arvore::codificacao() [109]
+                0.00    0.00    3000/3103        vector4<Par>::~vector4() [112]
+[32]     0.0    0.00    0.00    3103         Par::~Par() [32]
+-----------------------------------------------
+                0.00    0.00    3004/3004        void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char) [75]
+[33]     0.0    0.00    0.00    3004         std::char_traits<char>::eq(char const&, char const&) [33]
+-----------------------------------------------
+                0.00    0.00     979/3004        std::bitset<8ul>::reference::reference(std::bitset<8ul>&, unsigned long) [55]
+                0.00    0.00    2025/3004        std::_Base_bitset<1ul>::_S_maskbit(unsigned long) [41]
+[34]     0.0    0.00    0.00    3004         std::_Base_bitset<1ul>::_S_whichbit(unsigned long) [34]
+-----------------------------------------------
+                0.00    0.00    2501/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+[35]     0.0    0.00    0.00    2501         bool __gnu_cxx::__is_null_pointer<char>(char*) [35]
+-----------------------------------------------
+                0.00    0.00       2/2501        main [1]
+                0.00    0.00      30/2501        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [98]
+                0.00    0.00     103/2501        Arvore::codificacao() [109]
+                0.00    0.00     304/2501        Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00     981/2501        Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.00    1081/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type) [48]
+[36]     0.0    0.00    0.00    2501         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+                0.00    0.00    2501/2501        bool __gnu_cxx::__is_null_pointer<char>(char*) [35]
+                0.00    0.00    2501/2501        std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [39]
+-----------------------------------------------
+                0.00    0.00    2501/2501        std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [39]
+[37]     0.0    0.00    0.00    2501         std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag) [37]
+-----------------------------------------------
+                0.00    0.00    2501/2501        std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [39]
+[38]     0.0    0.00    0.00    2501         std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&) [38]
+-----------------------------------------------
+                0.00    0.00    2501/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+[39]     0.0    0.00    0.00    2501         std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*) [39]
+                0.00    0.00    2501/2501        std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&) [38]
+                0.00    0.00    2501/2501        std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag) [37]
+-----------------------------------------------
+                0.00    0.00     979/2025        std::bitset<8ul>::reference::reference(std::bitset<8ul>&, unsigned long) [55]
+                0.00    0.00    1046/2025        std::bitset<8ul>::_Unchecked_set(unsigned long) [51]
+[40]     0.0    0.00    0.00    2025         std::_Base_bitset<1ul>::_M_getword(unsigned long) [40]
+-----------------------------------------------
+                0.00    0.00     979/2025        std::bitset<8ul>::reference::operator bool() const [54]
+                0.00    0.00    1046/2025        std::bitset<8ul>::_Unchecked_set(unsigned long) [51]
+[41]     0.0    0.00    0.00    2025         std::_Base_bitset<1ul>::_S_maskbit(unsigned long) [41]
+                0.00    0.00    2025/3004        std::_Base_bitset<1ul>::_S_whichbit(unsigned long) [34]
+-----------------------------------------------
+                0.00    0.00     206/1990        bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [92]
+                0.00    0.00     866/1990        bool __gnu_cxx::operator< <char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [64]
+                0.00    0.00     918/1990        bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [61]
+[42]     0.0    0.00    0.00    1990         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [42]
+-----------------------------------------------
+                0.00    0.00    1224/1224        Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[43]     0.0    0.00    0.00    1224         vector4<int>::operator[](int) [43]
+-----------------------------------------------
+                0.00    0.00    1224/1224        Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[44]     0.0    0.00    0.00    1224         vector4<int>::size() const [44]
+-----------------------------------------------
+                0.00    0.00     151/1113        countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00     302/1113        Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00     660/1113        void std::iter_swap<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [66]
+[45]     0.0    0.00    0.00    1113         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [45]
+-----------------------------------------------
+                0.00    0.00    1081/1081        std::__cxx11::to_string(int) [50]
+[46]     0.0    0.00    0.00    1081         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [46]
+                0.00    0.00    1081/1081        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [49]
+-----------------------------------------------
+                0.00    0.00    1081/1081        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [49]
+[47]     0.0    0.00    0.00    1081         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*) [47]
+                0.00    0.00    1081/1081        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type) [48]
+-----------------------------------------------
+                0.00    0.00    1081/1081        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*) [47]
+[48]     0.0    0.00    0.00    1081         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type) [48]
+                0.00    0.00    1081/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+-----------------------------------------------
+                0.00    0.00    1081/1081        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [46]
+[49]     0.0    0.00    0.00    1081         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [49]
+                0.00    0.00    1081/1081        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*) [47]
+-----------------------------------------------
+                0.00    0.00     102/1081        Arvore::descobreMaior(TipoNo*&) [7]
+                0.00    0.00     979/1081        Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[50]     0.0    0.00    0.00    1081         std::__cxx11::to_string(int) [50]
+                0.00    0.00    1081/1081        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [46]
+-----------------------------------------------
+                0.00    0.00    1046/1046        void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char) [75]
+[51]     0.0    0.00    0.00    1046         std::bitset<8ul>::_Unchecked_set(unsigned long) [51]
+                0.00    0.00    1046/2025        std::_Base_bitset<1ul>::_S_maskbit(unsigned long) [41]
+                0.00    0.00    1046/2025        std::_Base_bitset<1ul>::_M_getword(unsigned long) [40]
+-----------------------------------------------
+                0.00    0.00     990/990         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<char> >, std::is_move_constructible<char>, std::is_move_assignable<char> >::value, void>::type std::swap<char>(char&, char&) [65]
+[52]     0.0    0.00    0.00     990         std::remove_reference<char&>::type&& std::move<char&>(char&) [52]
+-----------------------------------------------
+                0.00    0.00     979/979         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[53]     0.0    0.00    0.00     979         Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+                0.00    0.00  101816/133640      vector4<Par>::size() const [18]
+                0.00    0.00  100990/132814      vector4<Par>::operator[](int) [19]
+                0.00    0.00  100837/161056      __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+-----------------------------------------------
+                0.00    0.00     979/979         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[54]     0.0    0.00    0.00     979         std::bitset<8ul>::reference::operator bool() const [54]
+                0.00    0.00     979/2025        std::_Base_bitset<1ul>::_S_maskbit(unsigned long) [41]
+-----------------------------------------------
+                0.00    0.00     979/979         std::bitset<8ul>::operator[](unsigned long) [57]
+[55]     0.0    0.00    0.00     979         std::bitset<8ul>::reference::reference(std::bitset<8ul>&, unsigned long) [55]
+                0.00    0.00     979/2025        std::_Base_bitset<1ul>::_M_getword(unsigned long) [40]
+                0.00    0.00     979/3004        std::_Base_bitset<1ul>::_S_whichbit(unsigned long) [34]
+-----------------------------------------------
+                0.00    0.00     979/979         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[56]     0.0    0.00    0.00     979         std::bitset<8ul>::reference::~reference() [56]
+-----------------------------------------------
+                0.00    0.00     979/979         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[57]     0.0    0.00    0.00     979         std::bitset<8ul>::operator[](unsigned long) [57]
+                0.00    0.00     979/979         std::bitset<8ul>::reference::reference(std::bitset<8ul>&, unsigned long) [55]
+-----------------------------------------------
+                0.00    0.00     151/783         countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00     302/783         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+                0.00    0.00     330/783         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+[58]     0.0    0.00    0.00     783         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [58]
+-----------------------------------------------
+                0.00    0.00     612/612         void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char) [75]
+[59]     0.0    0.00    0.00     612         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [59]
+-----------------------------------------------
+                0.00    0.00       1/512         vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00     103/512         countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00     408/512         Arvore::descobreMaior(TipoNo*&) [7]
+[60]     0.0    0.00    0.00     512         vector4<TipoNo*>::push_back(TipoNo* const&) [60]
+-----------------------------------------------
+                0.00    0.00     153/459         countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00     306/459         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+[61]     0.0    0.00    0.00     459         bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [61]
+                0.00    0.00     918/1990        __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [42]
+-----------------------------------------------
+                0.00    0.00       2/437         main [1]
+                0.00    0.00     153/437         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.00     282/437         countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+[62]     0.0    0.00    0.00     437         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+-----------------------------------------------
+                0.00    0.00     433/433         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+[63]     0.0    0.00    0.00     433         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator--() [63]
+-----------------------------------------------
+                0.00    0.00     433/433         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+[64]     0.0    0.00    0.00     433         bool __gnu_cxx::operator< <char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [64]
+                0.00    0.00     866/1990        __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [42]
+-----------------------------------------------
+                0.00    0.00     330/330         void std::iter_swap<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [66]
+[65]     0.0    0.00    0.00     330         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<char> >, std::is_move_constructible<char>, std::is_move_assignable<char> >::value, void>::type std::swap<char>(char&, char&) [65]
+                0.00    0.00     990/990         std::remove_reference<char&>::type&& std::move<char&>(char&) [52]
+-----------------------------------------------
+                0.00    0.00     330/330         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+[66]     0.0    0.00    0.00     330         void std::iter_swap<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [66]
+                0.00    0.00     660/1113        __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [45]
+                0.00    0.00     330/330         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<char> >, std::is_move_constructible<char>, std::is_move_assignable<char> >::value, void>::type std::swap<char>(char&, char&) [65]
+-----------------------------------------------
+                0.00    0.00     306/306         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+[67]     0.0    0.00    0.00     306         Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [67]
+                0.00    0.00   31824/133640      vector4<Par>::size() const [18]
+                0.00    0.00   31824/132814      vector4<Par>::operator[](int) [19]
+                0.00    0.00   31518/161056      __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+-----------------------------------------------
+                0.00    0.00     306/306         Arvore::descobreMaior(TipoNo*&) [7]
+[68]     0.0    0.00    0.00     306         vector4<TipoNo*>::begin() const [68]
+                0.00    0.00     306/16372       vector4<TipoNo*>::iterator::iterator(TipoNo**) [25]
+-----------------------------------------------
+                0.00    0.00     102/306         vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00     204/306         vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+[69]     0.0    0.00    0.00     306         vector4<TipoNo*>::iterator::operator==(vector4<TipoNo*>::iterator const&) const [69]
+-----------------------------------------------
+                0.00    0.00     306/306         std::bitset<8ul>::to_ulong() const [72]
+[70]     0.0    0.00    0.00     306         std::_Base_bitset<1ul>::_M_do_to_ulong() const [70]
+-----------------------------------------------
+                0.00    0.00     306/306         std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [78]
+[71]     0.0    0.00    0.00     306         void std::bitset<8ul>::_M_check_initial_position<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) const [71]
+-----------------------------------------------
+                0.00    0.00     306/306         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+[72]     0.0    0.00    0.00     306         std::bitset<8ul>::to_ulong() const [72]
+                0.00    0.00     306/306         std::_Base_bitset<1ul>::_M_do_to_ulong() const [70]
+-----------------------------------------------
+                0.00    0.00     306/306         std::bitset<8ul>::reset() [77]
+[73]     0.0    0.00    0.00     306         std::_Base_bitset<1ul>::_M_do_reset() [73]
+-----------------------------------------------
+                0.00    0.00     306/306         std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [78]
+[74]     0.0    0.00    0.00     306         std::_Base_bitset<1ul>::_Base_bitset() [74]
+-----------------------------------------------
+                0.00    0.00     306/306         void std::bitset<8ul>::_M_copy_from_string<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long, char, char) [76]
+[75]     0.0    0.00    0.00     306         void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char) [75]
+                0.00    0.00    3004/3004        std::char_traits<char>::eq(char const&, char const&) [33]
+                0.00    0.00    1046/1046        std::bitset<8ul>::_Unchecked_set(unsigned long) [51]
+                0.00    0.00     612/612         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [59]
+                0.00    0.00     306/306         std::bitset<8ul>::reset() [77]
+-----------------------------------------------
+                0.00    0.00     306/306         std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [78]
+[76]     0.0    0.00    0.00     306         void std::bitset<8ul>::_M_copy_from_string<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long, char, char) [76]
+                0.00    0.00     306/306         void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char) [75]
+-----------------------------------------------
+                0.00    0.00     306/306         void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char) [75]
+[77]     0.0    0.00    0.00     306         std::bitset<8ul>::reset() [77]
+                0.00    0.00     306/306         std::_Base_bitset<1ul>::_M_do_reset() [73]
+-----------------------------------------------
+                0.00    0.00     306/306         Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+[78]     0.0    0.00    0.00     306         std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [78]
+                0.00    0.00     306/306         std::_Base_bitset<1ul>::_Base_bitset() [74]
+                0.00    0.00     306/306         void std::bitset<8ul>::_M_check_initial_position<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) const [71]
+                0.00    0.00     306/306         void std::bitset<8ul>::_M_copy_from_string<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long, char, char) [76]
+-----------------------------------------------
+                0.00    0.00     103/256         Arvore::codificacao() [109]
+                0.00    0.00     153/256         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[79]     0.0    0.00    0.00     256         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [79]
+-----------------------------------------------
+                0.00    0.00     204/204         Arvore::descobreMaior(TipoNo*&) [7]
+[80]     0.0    0.00    0.00     204         vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [80]
+                0.00    0.00   21012/21012       vector4<TipoNo*>::iterator::operator++() [23]
+                0.00    0.00   20808/31009       vector4<TipoNo*>::iterator::operator*() const [22]
+                0.00    0.00   10812/10914       vector4<TipoNo*>::end() const [27]
+                0.00    0.00   10608/15759       vector4<TipoNo*>::iterator::operator!=(vector4<TipoNo*>::iterator const&) const [26]
+                0.00    0.00     204/306         vector4<TipoNo*>::iterator::operator==(vector4<TipoNo*>::iterator const&) const [69]
+-----------------------------------------------
+                0.00    0.00     154/154         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[81]     0.0    0.00    0.00     154         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator!=(vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator const&) const [81]
+-----------------------------------------------
+                0.00    0.00     153/153         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[82]     0.0    0.00    0.00     153         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator++() [82]
+-----------------------------------------------
+                0.00    0.00     153/153         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[83]     0.0    0.00    0.00     153         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator*() const [83]
+-----------------------------------------------
+                0.00    0.00     153/153         std::bitset<8ul>::bitset(unsigned long long) [86]
+[84]     0.0    0.00    0.00     153         std::_Base_bitset<1ul>::_Base_bitset(unsigned long long) [84]
+-----------------------------------------------
+                0.00    0.00     153/153         std::bitset<8ul>::bitset(unsigned long long) [86]
+[85]     0.0    0.00    0.00     153         std::_Sanitize_val<8ul, true>::_S_do_sanitize_val(unsigned long long) [85]
+-----------------------------------------------
+                0.00    0.00     153/153         Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[86]     0.0    0.00    0.00     153         std::bitset<8ul>::bitset(unsigned long long) [86]
+                0.00    0.00     153/153         std::_Sanitize_val<8ul, true>::_S_do_sanitize_val(unsigned long long) [85]
+                0.00    0.00     153/153         std::_Base_bitset<1ul>::_Base_bitset(unsigned long long) [84]
+-----------------------------------------------
+                0.00    0.00     104/104         Arvore::codificacao() [109]
+[87]     0.0    0.00    0.00     104         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::size() const [87]
+-----------------------------------------------
+                0.00    0.00     103/103         vector4<Par>::push_back(Par const&) [90]
+[88]     0.0    0.00    0.00     103         Par::operator=(Par const&) [88]
+-----------------------------------------------
+                0.00    0.00     103/103         Arvore::codificacao() [109]
+[89]     0.0    0.00    0.00     103         Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [89]
+                0.00    0.00   22016/161056      __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+                0.00    0.00   21060/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00   10609/18092       vector4<TipoNo*>::size() const [24]
+                0.00    0.00     103/8419        TipoNo::TipoNo() [28]
+-----------------------------------------------
+                0.00    0.00     103/103         Arvore::codificacao() [109]
+[90]     0.0    0.00    0.00     103         vector4<Par>::push_back(Par const&) [90]
+                0.00    0.00     103/103         Par::operator=(Par const&) [88]
+-----------------------------------------------
+                0.00    0.00     103/103         Arvore::codificacao() [109]
+[91]     0.0    0.00    0.00     103         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator[](int) [91]
+-----------------------------------------------
+                0.00    0.00     103/103         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+[92]     0.0    0.00    0.00     103         bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [92]
+                0.00    0.00     206/1990        __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [42]
+-----------------------------------------------
+                0.00    0.00     103/103         void std::reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [94]
+[93]     0.0    0.00    0.00     103         std::iterator_traits<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::iterator_category std::__iterator_category<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [93]
+-----------------------------------------------
+                0.00    0.00     103/103         Arvore::codificacao() [109]
+[94]     0.0    0.00    0.00     103         void std::reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [94]
+                0.00    0.00     103/103         std::iterator_traits<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::iterator_category std::__iterator_category<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [93]
+                0.00    0.00     103/103         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+-----------------------------------------------
+                0.00    0.00     103/103         void std::reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [94]
+[95]     0.0    0.00    0.00     103         void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag) [95]
+                0.00    0.00     433/433         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator--() [63]
+                0.00    0.00     433/433         bool __gnu_cxx::operator< <char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [64]
+                0.00    0.00     330/330         void std::iter_swap<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [66]
+                0.00    0.00     330/783         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [58]
+                0.00    0.00     103/103         bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [92]
+-----------------------------------------------
+                0.00    0.00     102/102         Arvore::descobreMaior(TipoNo*&) [7]
+[96]     0.0    0.00    0.00     102         Arvore::gerarNumeroUnico() [96]
+-----------------------------------------------
+                0.00    0.00     102/102         Arvore::descobreMaior(TipoNo*&) [7]
+[97]     0.0    0.00    0.00     102         vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [97]
+                0.00    0.00   10201/31009       vector4<TipoNo*>::iterator::operator*() const [22]
+                0.00    0.00    5151/15759       vector4<TipoNo*>::iterator::operator!=(vector4<TipoNo*>::iterator const&) const [26]
+                0.00    0.00    5050/5050        vector4<TipoNo*>::iterator::operator-(int) const [30]
+                0.00    0.00    5050/5050        vector4<TipoNo*>::iterator::operator--() [29]
+                0.00    0.00     102/10914       vector4<TipoNo*>::end() const [27]
+                0.00    0.00     102/306         vector4<TipoNo*>::iterator::operator==(vector4<TipoNo*>::iterator const&) const [69]
+                0.00    0.00     102/16372       vector4<TipoNo*>::iterator::iterator(TipoNo**) [25]
+                0.00    0.00       1/512         vector4<TipoNo*>::push_back(TipoNo* const&) [60]
+-----------------------------------------------
+                0.00    0.00      10/30          ajustarNumeros(vector4<TipoNo*>&) [105]
+                0.00    0.00      20/30          Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [5]
+[98]     0.0    0.00    0.00      30         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [98]
+                0.00    0.00      30/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+-----------------------------------------------
+                0.00    0.00       1/5           main [1]
+                0.00    0.00       4/5           Arvore::Arvore(vector4<TipoNo*>) [6]
+[99]     0.0    0.00    0.00       5         vector4<TipoNo*>::vector4() [99]
+-----------------------------------------------
+                0.00    0.00       1/3           Arvore::Arvore(vector4<TipoNo*>) [6]
+                0.00    0.00       1/3           Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.00       1/3           Arvore::codificacao() [109]
+[100]    0.0    0.00    0.00       3         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::vector4() [100]
+-----------------------------------------------
+                0.00    0.00       1/3           Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+                0.00    0.00       1/3           Arvore::codificacao() [109]
+                0.00    0.00       1/3           Arvore::~Arvore() [110]
+[101]    0.0    0.00    0.00       3         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~vector4() [101]
+-----------------------------------------------
+                0.00    0.00       1/2           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::begin() const [115]
+                0.00    0.00       1/2           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::end() const [114]
+[102]    0.0    0.00    0.00       2         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::iterator(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [102]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [125]
+[103]    0.0    0.00    0.00       1         _GLOBAL__sub_I__Z23countCharacterFrequencyRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER7vector4IP6TipoNoE [103]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [108]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [125]
+[104]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN6ArvoreC2E7vector4IP6TipoNoE [104]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [107]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[105]    0.0    0.00    0.00       1         ajustarNumeros(vector4<TipoNo*>&) [105]
+                0.00    0.00     123/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00     104/18092       vector4<TipoNo*>::size() const [24]
+                0.00    0.00      10/30          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [98]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[106]    0.0    0.00    0.00       1         countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [106]
+                0.00    0.00    7068/18092       vector4<TipoNo*>::size() const [24]
+                0.00    0.00    7018/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00    6684/161056      __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17]
+                0.00    0.00     282/437         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+                0.00    0.00     153/459         bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [61]
+                0.00    0.00     151/1113        __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [45]
+                0.00    0.00     151/783         __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [58]
+                0.00    0.00     103/8419        TipoNo::TipoNo() [28]
+                0.00    0.00     103/512         vector4<TipoNo*>::push_back(TipoNo* const&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN6ArvoreC2E7vector4IP6TipoNoE [104]
+[107]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [107]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z23countCharacterFrequencyRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER7vector4IP6TipoNoE [103]
+[108]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [108]
+-----------------------------------------------
+                0.00    0.00       1/1           Arvore::Arvore(vector4<TipoNo*>) [6]
+[109]    0.0    0.00    0.00       1         Arvore::codificacao() [109]
+                0.00    0.00     104/18092       vector4<TipoNo*>::size() const [24]
+                0.00    0.00     104/104         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::size() const [87]
+                0.00    0.00     103/129305      vector4<TipoNo*>::operator[](int) [20]
+                0.00    0.00     103/256         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [79]
+                0.00    0.00     103/3103        Par::Par() [31]
+                0.00    0.00     103/103         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator[](int) [91]
+                0.00    0.00     103/2501        void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [36]
+                0.00    0.00     103/103         Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [89]
+                0.00    0.00     103/103         void std::reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >) [94]
+                0.00    0.00     103/103         vector4<Par>::push_back(Par const&) [90]
+                0.00    0.00     103/3103        Par::~Par() [32]
+                0.00    0.00       1/3           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::vector4() [100]
+                0.00    0.00       1/3           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~vector4() [101]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[110]    0.0    0.00    0.00       1         Arvore::~Arvore() [110]
+                0.00    0.00       1/1           vector4<Par>::~vector4() [112]
+                0.00    0.00       1/3           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~vector4() [101]
+-----------------------------------------------
+                0.00    0.00       1/1           Arvore::Arvore(vector4<TipoNo*>) [6]
+[111]    0.0    0.00    0.00       1         vector4<Par>::vector4() [111]
+                0.00    0.00    3000/3103        Par::Par() [31]
+-----------------------------------------------
+                0.00    0.00       1/1           Arvore::~Arvore() [110]
+[112]    0.0    0.00    0.00       1         vector4<Par>::~vector4() [112]
+                0.00    0.00    3000/3103        Par::~Par() [32]
+-----------------------------------------------
+                0.00    0.00       1/1           Arvore::Arvore(vector4<TipoNo*>) [6]
+[113]    0.0    0.00    0.00       1         vector4<int>::vector4() [113]
+-----------------------------------------------
+                0.00    0.00       1/1           Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[114]    0.0    0.00    0.00       1         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::end() const [114]
+                0.00    0.00       1/2           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::iterator(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [102]
+-----------------------------------------------
+                0.00    0.00       1/1           Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [9]
+[115]    0.0    0.00    0.00       1         vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::begin() const [115]
+                0.00    0.00       1/2           vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::iterator(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [102]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [103] _GLOBAL__sub_I__Z23countCharacterFrequencyRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER7vector4IP6TipoNoE [25] vector4<TipoNo*>::iterator::iterator(TipoNo**) [33] std::char_traits<char>::eq(char const&, char const&)
+ [104] _GLOBAL__sub_I__ZN6ArvoreC2E7vector4IP6TipoNoE [29] vector4<TipoNo*>::iterator::operator--() [21] std::char_traits<char>::compare(char const*, char const*, unsigned long)
+ [105] ajustarNumeros(vector4<TipoNo*>&) [23] vector4<TipoNo*>::iterator::operator++() [40] std::_Base_bitset<1ul>::_M_getword(unsigned long)
+ [106] countCharacterFrequency(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, vector4<TipoNo*>&) [60] vector4<TipoNo*>::push_back(TipoNo* const&) [41] std::_Base_bitset<1ul>::_S_maskbit(unsigned long)
+ [107] __static_initialization_and_destruction_0(int, int) [99] vector4<TipoNo*>::vector4() [73] std::_Base_bitset<1ul>::_M_do_reset()
+ [108] __static_initialization_and_destruction_0(int, int) [20] vector4<TipoNo*>::operator[](int) [34] std::_Base_bitset<1ul>::_S_whichbit(unsigned long)
+  [31] Par::Par()              [3] vector4<int>::push_back(int const&) [74] std::_Base_bitset<1ul>::_Base_bitset()
+  [32] Par::~Par()           [113] vector4<int>::vector4() [84] std::_Base_bitset<1ul>::_Base_bitset(unsigned long long)
+  [88] Par::operator=(Par const&) [43] vector4<int>::operator[](int) [85] std::_Sanitize_val<8ul, true>::_S_do_sanitize_val(unsigned long long)
+ [109] Arvore::codificacao()  [46] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [51] std::bitset<8ul>::_Unchecked_set(unsigned long)
+   [7] Arvore::descobreMaior(TipoNo*&) [35] bool __gnu_cxx::__is_null_pointer<char>(char*) [75] void std::bitset<8ul>::_M_copy_from_ptr<char, std::char_traits<char> >(char const*, unsigned long, unsigned long, unsigned long, char, char)
+   [5] Arvore::compactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [63] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator--() [76] void std::bitset<8ul>::_M_copy_from_string<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long, char, char)
+  [96] Arvore::gerarNumeroUnico() [58] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++() [77] std::bitset<8ul>::reset()
+  [53] Arvore::achaDescompactado(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [92] bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [55] std::bitset<8ul>::reference::reference(std::bitset<8ul>&, unsigned long)
+   [9] Arvore::descompactarArquivo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [64] bool __gnu_cxx::operator< <char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [56] std::bitset<8ul>::reference::~reference()
+   [8] Arvore::Huff()         [61] bool __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) [78] std::bitset<8ul>::bitset<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long)
+  [67] Arvore::acha(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [18] vector4<Par>::size() const [86] std::bitset<8ul>::bitset(unsigned long long)
+   [2] Arvore::Refaz(int, int, vector4<TipoNo*>&) [114] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::end() const [57] std::bitset<8ul>::operator[](unsigned long)
+  [89] Arvore::isFilho(Par&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [87] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::size() const [47] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*)
+  [10] Arvore::Constroi(vector4<TipoNo*>&, int) [115] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::begin() const [36] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+   [4] Arvore::Heapsort(vector4<TipoNo*>&) [83] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator*() const [48] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct_aux<char*>(char*, char*, std::__false_type)
+   [6] Arvore::Arvore(vector4<TipoNo*>) [81] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator!=(vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator const&) const [49] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&)
+ [110] Arvore::~Arvore()      [27] vector4<TipoNo*>::end() const [50] std::__cxx11::to_string(int)
+  [28] TipoNo::TipoNo()       [24] vector4<TipoNo*>::size() const [37] std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag)
+  [90] vector4<Par>::push_back(Par const&) [68] vector4<TipoNo*>::begin() const [93] std::iterator_traits<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::iterator_category std::__iterator_category<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+ [111] vector4<Par>::vector4() [22] vector4<TipoNo*>::iterator::operator*() const [38] std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+ [112] vector4<Par>::~vector4() [69] vector4<TipoNo*>::iterator::operator==(vector4<TipoNo*>::iterator const&) const [59] unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  [19] vector4<Par>::operator[](int) [30] vector4<TipoNo*>::iterator::operator-(int) const [52] std::remove_reference<char&>::type&& std::move<char&>(char&)
+ [102] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::iterator(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [26] vector4<TipoNo*>::iterator::operator!=(vector4<TipoNo*>::iterator const&) const [65] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<char> >, std::is_move_constructible<char>, std::is_move_assignable<char> >::value, void>::type std::swap<char>(char&, char&)
+  [82] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::iterator::operator++() [44] vector4<int>::size() const [94] void std::reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  [79] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [42] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base() const [39] std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*)
+ [100] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::vector4() [45] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*() const [95] void std::__reverse<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::random_access_iterator_tag)
+ [101] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~vector4() [70] std::_Base_bitset<1ul>::_M_do_to_ulong() const [66] void std::iter_swap<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >)
+  [91] vector4<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator[](int) [71] void std::bitset<8ul>::_M_check_initial_position<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) const [17] __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [80] vector4<TipoNo*>::erase(vector4<TipoNo*>::iterator) [72] std::bitset<8ul>::to_ulong() const [62] bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  [97] vector4<TipoNo*>::insert(vector4<TipoNo*>::iterator, TipoNo* const&) [54] std::bitset<8ul>::reference::operator bool() const [98] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
