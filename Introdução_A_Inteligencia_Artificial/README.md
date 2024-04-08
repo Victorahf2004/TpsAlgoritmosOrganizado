@@ -1,0 +1,1 @@
+Essa pasta mostra os principais trabalhos realizados ao longo do período de 2023/2 na disciplina de Introdução à Inteligência Artificial na Ufmg por mim
